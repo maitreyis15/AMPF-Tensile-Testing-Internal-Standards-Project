@@ -9,7 +9,7 @@ The tensile tests are conducted using the 5982 Instron Frame, which allows uniax
 Each folder should have a process similar to the one laid out below. (This does not include the code)
 1. Folders are first separated by **material**
 2. Next, the folders will be separated by **specimen geometry**
-3. There will be one csv file that contains all the raw data from each test and/or corresponding results from the test
+3. There will be one csv file that contains all the raw data from each test and/or corresponding results from the test (if there is an 'X' next to a specimen in the results table, that indicates that the data for that test should be considered invalid)
 4. The other Excel files contain the data that will be used for the main MATLAB code that analyzes your data (this was done manually due to the fact that it makes it easier for MATLAB to read the file)
 
 ## MATLAB Code Simple Documentation
