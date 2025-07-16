@@ -12,6 +12,7 @@ Each folder should have a process similar to the one laid out below. (This does 
    - The specimen geometries are broken up into A10, A3, A3, and A12. Differences in geoemetries include grip width, grip length, gauge length, gauge width, and specimen thickness.
 4. There will be one csv file that contains all the raw data from each test and/or corresponding results from the test (if there is an 'X' next to a specimen in the results table, that indicates that the data for that test should be considered invalid)
 5. The other Excel files contain the data that will be used for the main MATLAB code that analyzes your data (this was done manually due to the fact that it makes it easier for MATLAB to read the file)
+   - It is only compatible with the Python and MATLAB code if the first line of the Excel sheet contains the index, time, displacement, etc. (The results table should not be included, and more than one specimen should not be on the same Excel sheet)
 
 ## MATLAB Code Simple Documentation
 1. Add your specimen measurements in the first few lines of code, inputting the gauge length and computing the cross-sectional area
